@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(246, 228, 243);
+}
+
+
+.card{
+    position: absolute;
+    width: 550px;
+    max-height: 450px;
+    background-color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+}
+
+.card__pages{
+    padding: 30px;
+}
+
+h4{
+    opacity: 0.5;
+    letter-spacing: 3px;
+    font-size: 15px;
+}
+
+h1{
+    margin-top: 20px;
+}
+
+p{
+    margin-top: 10px;
+    opacity: 0.7;
+}
+
+span{
+    font-size: 14px;
+    opacity: 0.6;
+    color: black;
+}
+
+a{
+    position: absolute;
+    margin-top: 15px;
+    text-decoration: none;
+    color: white;
+    width: 200px;
+    height: 45px;
+    background-color: rgb(20, 97, 99);
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.price{
+    color: rgb(20, 97, 99);
+}
